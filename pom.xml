@@ -27,7 +27,7 @@
                     "angular-nvd3": "angular-nvd3"
                 },
                 "shim": {
-                    "angular-nvd3": ["nv.d3"]
+                    "angular-nvd3": ["angular", "nvd3"]
                 }
             }
         </requirejs>
